@@ -1,2 +1,1 @@
-# EquityTips
-Equity Tips
+"# MEAN-Stack-With-Angular-2-Tutorial" 
