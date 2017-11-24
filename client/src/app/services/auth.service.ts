@@ -2,11 +2,12 @@ import { Injectable } from '@angular/core';
 import { Http, Headers, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/map';
 import { tokenNotExpired } from 'angular2-jwt';
+//import { DOCUMENT } from '@angular/platform-browser';
 
 @Injectable()
 export class AuthService {
 
-  domain = "http://www.smartequitytips.com/"; // Development Domain - Not Needed in Production
+  domain =  window.location.hostname; // Development Domain - Not Needed in Production
   //domain = "http://localhost:8080/"; //Local 
   authToken;
   user;
